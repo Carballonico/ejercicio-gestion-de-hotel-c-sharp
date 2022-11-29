@@ -250,16 +250,7 @@ namespace hotell
                 } while (!salir);
             }
 
-            /*
-            for (int h = 0; h < auxhab.GetLength(0); h++)
-            {
-                for (int w = 0; w < auxhab.GetLength(1); w++)
-                {
-                    Console.Write("{0}\t", array[h, w]);
-                }
-                Console.Write("\n");
-            }
-            */
+         
             if (array.GetLength(1) > 2)
             {
                 return auxhab;
