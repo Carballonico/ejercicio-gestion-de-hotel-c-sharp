@@ -8,8 +8,9 @@ namespace hotell
         {
             Console.WriteLine("1. Mostrar Hotel\r\n2. Mostrar habitacions lliures\r\n3. Mostrar habitacions ocupades amb el nom\r\n4. Entrar reserva\r\n5. Llista reserves a partir d'un Nif\r\n6. Factura de la reserva a partir d'un Nif\r\n7. Anul·lar reserva\r\n8. Salir");
         }
-        
-       
+
+        //cambio git -----
+        string variablegit = "cambiorealizado";
         public static bool comprobaraux(string[,] array)
         {
             
