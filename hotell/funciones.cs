@@ -170,32 +170,7 @@ namespace hotell
             string not = "not null";
             int coordenadanif;
             Boolean salir = false;
-            int i = 0;
-            /*
-            string[,] enunciado = new string[5, 2] { { "Num.Hab\t", "=======\t" }, { "Pis\t", "===\t" }, { "Llits\t", "=====\t" }, { "Preu\t", "====\t" }, { "Lliure/Nif\n", "==========" } };
-            int ñ = 0;
-            if (array.GetLength(1) > 2)
-            {
-                while (ñ < enunciado.GetLength(1))
-                {
-                    for (int j = 0; j < columna; j++)
-                    {
-
-                        //Console.Write("{0}", enunciado[j, ñ]);
-                        if (j == columna - 1)
-                        {
-                            ñ++;
-
-                        }
-                    }
-                    //Console.Write("\n");
-                }
-            }
-            else
-            {
-                Console.Write("Bienvenido\tsr/sra:\n");               
-            }
-            */
+            int i = 0;            
 
             if (array.GetLength(1) > 2)
             {
